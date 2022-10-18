@@ -1,0 +1,40 @@
+function lns = Polyline(ply)
+% Polyline
+% converts polygon "ply" to polyline, duplicates a row
+%
+% Usage...:
+% lns = Polyline(ply);
+%
+% Input...: ply       (n,2|3),(1,n)
+% Output..: lns       (n,4|6),(1,2*n)
+%
+% Examples:
+%{
+lns = Polyline(rand(3,2)); % = 3 lines
+lin = Polyline(rand(1,3)); % = (6), point to line
+%}
+%
+% Alghalandis Discrete Fracture Network Engineering (ADFNE),*R1.5*
+% Copyright (c) 2018 Alghalandis Computing @
+% Author: Dr. Younes Fadakar Alghalandis
+% (w) http://alghalandis.net        (e) alghalandis.net@gmail.com
+% All rights reserved.
+%
+% License.: ADFNE1.5_License.txt and at http://alghalandis.net/products/adfne/adfne15
+%
+% Citations:
+% Fadakar-A Y, 2017, "ADFNE: Open source software for discrete fracture network
+% engineering, two and three dimensional applications", Journal of Computers &
+% Geosciences, 102:1-11.
+%
+% Fadakar-A Y, 2018, "DFNE Practices with ADFNE", Alghalandis Computing, Toronto, 
+% Ontario, Canada, http://alghalandis.net, pp61.
+%
+% see more at: http://alghalandis.net/products/adfne
+% Updated.: 2018-01-11
+
+if numel(ply) > 1
+    lns = [ply,circshift(ply,[-1,0])];                                          % creates lines
+else                                                                            % only one row
+    lns = Reshape([1,repelem(2:ply-1,1,2),ply],[],2);                           % creates line
+end
