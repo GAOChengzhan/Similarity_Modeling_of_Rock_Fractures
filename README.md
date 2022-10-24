@@ -11,6 +11,7 @@ Similarity evaluation of rock tunnel workface fractures is an important topic of
 ### A visualization method of discrete fracture network with randomly generated nodal fracture trace maps
 Here is the general flowchart:
 ![image](https://user-images.githubusercontent.com/39005000/197426629-689b432f-7281-4d0a-83f2-0019573ca871.png)
+
 1. Calculate the projection distance
 ![image](https://user-images.githubusercontent.com/39005000/197426878-47033747-eae6-438a-b2ab-ba38d5197816.png)
 2. Generate the projection points
