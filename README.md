@@ -26,16 +26,22 @@ Here is the general flowchart:
 
 ### 2.2 Similarity Evaluation System
 Established a complete discrete fracture network similarity evaluation system
+
 Here is the general flowchart:
 ![image](https://user-images.githubusercontent.com/39005000/198194191-79234f4b-929f-47a0-a7dd-2a4287350dd0.png)
+
 #### 2.2.1 Direction Similarity
+
 ![image](https://user-images.githubusercontent.com/39005000/198194766-5b34f02b-669b-410a-845e-320927235746.png)
 ![image](https://user-images.githubusercontent.com/39005000/198194773-e67df835-ae10-4375-a44f-fc0915e2df94.png)
 ![image](https://user-images.githubusercontent.com/39005000/198194780-84165c57-1112-4d7b-87eb-bb97576b048f.png)
+
 - Step1: get the distribution of two direction sets
 - Step2: use Wasserstein Algorithm to calculate the dissimilarity
 - Step3: get the similarity index
+
 ![image](https://user-images.githubusercontent.com/39005000/198195004-5a37ca45-c5d3-4ea1-8b53-61192632e861.png)
+
 #### 2.2.1 Direction Similarity
 
 ## 3.Experiment
