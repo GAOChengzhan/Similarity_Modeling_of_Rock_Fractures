@@ -42,7 +42,47 @@ Here is the general flowchart:
 
 ![image](https://user-images.githubusercontent.com/39005000/198195004-5a37ca45-c5d3-4ea1-8b53-61192632e861.png)
 
-#### 2.2.1 Direction Similarity
+#### 2.2.2 Length Similarity
+
+##### Overall Length Similarity
+![image](https://user-images.githubusercontent.com/39005000/198195340-11231b50-0b68-477d-984f-b1e19e086ea5.png)
+
+##### Length Similarity by Group
+![image](https://user-images.githubusercontent.com/39005000/198195334-0d3e0ec1-2a5b-4814-b4ce-1dd87b5aa01b.png)
+
+#### 2.2.3 Spacing Similarity
+![image](https://user-images.githubusercontent.com/39005000/198195409-4cdd940a-93c8-48d2-96c7-18c3760b66e8.png)
+![image](https://user-images.githubusercontent.com/39005000/198195419-5a4c539a-ddd5-4aed-9136-13ebda0eb913.png)
+![image](https://user-images.githubusercontent.com/39005000/198195427-ec020bb7-7b72-42a2-ba19-04f839dc4f87.png)
+
+- Step1: determine a certain group in map1 is to be compared with which group in map2
+- Step2: compare the spacing respectively
+- Step3: get the spacing index
+
+![image](https://user-images.githubusercontent.com/39005000/198195557-15c18588-d0e0-4485-8726-b562d593af3b.png)
+
+#### 2.2.4 Location Similarity
+![image](https://user-images.githubusercontent.com/39005000/198195990-08316d6a-5a93-48da-a2b7-f4203f227414.png)
+- Step1 Original Map
+- Step2 Line to Point
+- Step3 Grid
+- Step4 Calculate Gravity Points
+##### Overall Location Similarity
+![image](https://user-images.githubusercontent.com/39005000/198195928-a7ce5762-3dfb-4f82-851d-ffc6cab43d03.png)
+##### Location Similarity by Group
+![image](https://user-images.githubusercontent.com/39005000/198195921-0708620d-2ada-4619-98c4-62cc1422e5d4.png)
+
+#### 2.2.4 Density Similarity
+![image](https://user-images.githubusercontent.com/39005000/198196109-3eb90204-649c-4c70-a968-bde67d753045.png)
+- Step1 Original Map
+- Step2 Line to Point
+- Step3 Grid
+- Step4 Count Points
+##### Overall Density Similarity
+![image](https://user-images.githubusercontent.com/39005000/198196143-27ed1fa8-bc55-4444-94d7-86c0bc039cec.png)
+##### Density Similarity by Group
+![image](https://user-images.githubusercontent.com/39005000/198196150-55e51fc7-80b7-492e-9cda-d01262c96c3b.png)
+![image](https://user-images.githubusercontent.com/39005000/198196157-4c79b468-808f-4edc-a7b5-4986a5801854.png)
 
 ## 3.Experiment
 ### 3.1 Case 1
