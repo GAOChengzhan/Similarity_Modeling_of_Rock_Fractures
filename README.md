@@ -5,9 +5,14 @@
 3. Applied the established system to the actual project to test its reliability and applicability
 
 ## 1.Background
-Two Ways:
+There are basically TWO WAYS to get the trace maps of a certain tunnel face:
+
 ![image](https://user-images.githubusercontent.com/39005000/198196699-92ae95e2-5448-4d3e-80ed-b9f38a63d084.png)
+
+![image](https://user-images.githubusercontent.com/39005000/198196823-19f11606-f703-4c93-ae72-1746a4c5a4fb.png)
 ![image](https://user-images.githubusercontent.com/39005000/198196714-a04c4ce2-0d38-462d-ac88-7de4e1e33e67.png)
+
+How to compare two trace maps
 
 ![image](https://user-images.githubusercontent.com/39005000/198196652-e532da23-2f7e-4354-9964-02c28b60e27b.png)
 
