@@ -5,7 +5,14 @@
 3. Applied the established system to the actual project to test its reliability and applicability
 
 ## 1.Background
+Two Ways:
+![image](https://user-images.githubusercontent.com/39005000/198196699-92ae95e2-5448-4d3e-80ed-b9f38a63d084.png)
+![image](https://user-images.githubusercontent.com/39005000/198196714-a04c4ce2-0d38-462d-ac88-7de4e1e33e67.png)
+
+![image](https://user-images.githubusercontent.com/39005000/198196652-e532da23-2f7e-4354-9964-02c28b60e27b.png)
+
 Similarity evaluation of rock tunnel workface fractures is an important topic of profound concern for engineers and researchers in fractured rock modeling work. At present, the widely used method to measure and analyze the fissures of rock is still based on the professionals carrying geological compasses, rulers, measuring lines, and other tools to survey and draw the fissures of rocks on site, and then collate the obtained data and draw them on the drawings. This kind of method has the advantages of simple and direct operation, but 1. high labor cost,2. low efficiency of detection, 3.manual operation, and other disadvantages are inevitable. With the continuous development of computer technology, non-contact measurement led by machine vision gradually began to be widely used in practical engineering. Therefore, the non-contact data acquisition method is gradually used as the data source for rock joint fracture model establishment. On the other hand, the fracture network established by contact measurement data cannot meet the development of the growing visual information technology in terms of accuracy and efficiency due to the disadvantages of statistical localization and subjectivity, so there is an urgent need to explore a simpler and more efficient method to analyze the similarity of fracture modeling in rock tunnel working face and ensure the reliability of the fracture model established by combining machine vision extraction.
+
 
 ## 2.Method
 ### Visualization method of discrete fracture network 
