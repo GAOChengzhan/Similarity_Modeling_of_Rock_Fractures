@@ -14,13 +14,20 @@ Here is the general flowchart:
 ![image](https://user-images.githubusercontent.com/39005000/197426629-689b432f-7281-4d0a-83f2-0019573ca871.png)
 
 1. Calculate the projection distance
+
 ![image](https://user-images.githubusercontent.com/39005000/197426878-47033747-eae6-438a-b2ab-ba38d5197816.png)
+
 2. Generate the projection points
+
 3. 
 ![image](https://user-images.githubusercontent.com/39005000/197426920-87a53430-5270-4248-8574-4c44127db813.png)
+
 4. Downsampling
+
 ![image](https://user-images.githubusercontent.com/39005000/197427033-0e164637-bd4a-47be-8134-ca438c48866b.png)
+
 5. After repeat the above steps for specific times, the final map can be generated.
+
 ![image](https://user-images.githubusercontent.com/39005000/197427037-7462d9af-ea8f-4c51-bd03-f7859ace9b81.png)
 
 
@@ -34,6 +41,7 @@ Here is the general flowchart:
 
 ![image](https://user-images.githubusercontent.com/39005000/198194766-5b34f02b-669b-410a-845e-320927235746.png)
 ![image](https://user-images.githubusercontent.com/39005000/198194773-e67df835-ae10-4375-a44f-fc0915e2df94.png)
+
 ![image](https://user-images.githubusercontent.com/39005000/198194780-84165c57-1112-4d7b-87eb-bb97576b048f.png)
 
 - Step1: get the distribution of two direction sets
