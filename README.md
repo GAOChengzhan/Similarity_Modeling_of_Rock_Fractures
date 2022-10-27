@@ -26,17 +26,24 @@ Here is the general flowchart:
 1. Calculate the projection distance
 
 ![image](https://user-images.githubusercontent.com/39005000/197426878-47033747-eae6-438a-b2ab-ba38d5197816.png)
+![image](https://user-images.githubusercontent.com/39005000/198197106-585ee920-cda6-4466-9e8b-28d88b0efdbf.png)
 
 2. Generate the projection points
+![image](https://user-images.githubusercontent.com/39005000/198197123-cf44f97b-6a36-43ee-9e49-653db987f010.png)
 
-3. 
+3. Generate the guidelines of center points
 ![image](https://user-images.githubusercontent.com/39005000/197426920-87a53430-5270-4248-8574-4c44127db813.png)
 
-4. Downsampling
+4. Get the direction and length sequences and generate the centre points
+Two Sequences
+![image](https://user-images.githubusercontent.com/39005000/198197355-0fc5c81c-2753-4acc-abdc-0d03ad20d950.png)
+![image](https://user-images.githubusercontent.com/39005000/198197248-0d8f5838-5768-436b-9bc0-0e455a54cab0.png)
+
+5. Downsampling
 
 ![image](https://user-images.githubusercontent.com/39005000/197427033-0e164637-bd4a-47be-8134-ca438c48866b.png)
 
-5. After repeat the above steps for specific times, the final map can be generated.
+6. After repeat the above steps for specific times, the final map can be generated.
 
 ![image](https://user-images.githubusercontent.com/39005000/197427037-7462d9af-ea8f-4c51-bd03-f7859ace9b81.png)
 
