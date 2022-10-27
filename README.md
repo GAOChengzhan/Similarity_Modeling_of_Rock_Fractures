@@ -8,7 +8,8 @@
 Similarity evaluation of rock tunnel workface fractures is an important topic of profound concern for engineers and researchers in fractured rock modeling work. At present, the widely used method to measure and analyze the fissures of rock is still based on the professionals carrying geological compasses, rulers, measuring lines, and other tools to survey and draw the fissures of rocks on site, and then collate the obtained data and draw them on the drawings. This kind of method has the advantages of simple and direct operation, but 1. high labor cost,2. low efficiency of detection, 3.manual operation, and other disadvantages are inevitable. With the continuous development of computer technology, non-contact measurement led by machine vision gradually began to be widely used in practical engineering. Therefore, the non-contact data acquisition method is gradually used as the data source for rock joint fracture model establishment. On the other hand, the fracture network established by contact measurement data cannot meet the development of the growing visual information technology in terms of accuracy and efficiency due to the disadvantages of statistical localization and subjectivity, so there is an urgent need to explore a simpler and more efficient method to analyze the similarity of fracture modeling in rock tunnel working face and ensure the reliability of the fracture model established by combining machine vision extraction.
 
 ## 2.Method
-### A visualization method of discrete fracture network with randomly generated nodal fracture trace maps
+### Visualization method of discrete fracture network 
+Proposed a visualization method of discrete fracture network with randomly generated nodal fracture trace maps based on machine vision methods and statistical principles using Python language
 Here is the general flowchart:
 ![image](https://user-images.githubusercontent.com/39005000/197426629-689b432f-7281-4d0a-83f2-0019573ca871.png)
 
@@ -23,16 +24,40 @@ Here is the general flowchart:
 ![image](https://user-images.githubusercontent.com/39005000/197427037-7462d9af-ea8f-4c51-bd03-f7859ace9b81.png)
 
 
-### 
-
-
+### 2.2 Similarity Evaluation System
+Established a complete discrete fracture network similarity evaluation system
+Here is the general flowchart:
+![image](https://user-images.githubusercontent.com/39005000/198194191-79234f4b-929f-47a0-a7dd-2a4287350dd0.png)
+#### 2.2.1 Direction Similarity
+![image](https://user-images.githubusercontent.com/39005000/198194766-5b34f02b-669b-410a-845e-320927235746.png)
+![image](https://user-images.githubusercontent.com/39005000/198194773-e67df835-ae10-4375-a44f-fc0915e2df94.png)
+![image](https://user-images.githubusercontent.com/39005000/198194780-84165c57-1112-4d7b-87eb-bb97576b048f.png)
+- Step1: get the distribution of two direction sets
+- Step2: use Wasserstein Algorithm to calculate the dissimilarity
+- Step3: get the similarity index
+![image](https://user-images.githubusercontent.com/39005000/198195004-5a37ca45-c5d3-4ea1-8b53-61192632e861.png)
+#### 2.2.1 Direction Similarity
 
 ## 3.Experiment
-
+### 3.1 Case 1
+![image](https://user-images.githubusercontent.com/39005000/198191638-f39ffd42-e48a-4f9d-96e8-26c739f237e2.png)
+### 3.2 Case 2
+![image](https://user-images.githubusercontent.com/39005000/198191682-09bf75c1-4e14-4351-9ded-922d7fd329a9.png)
+Sample Window
+![image](https://user-images.githubusercontent.com/39005000/198191689-2406adb7-0541-4df3-9df5-c6015910be1f.png)
+Simulated Trace Maps
+![image](https://user-images.githubusercontent.com/39005000/198191724-e912f36c-9d1e-4247-8c5c-ae7495ee60e9.png)
+Results:
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
 ### 3.3 Sensitivity Analysis
 ![image](https://user-images.githubusercontent.com/39005000/198191135-34430ed5-3225-4d5b-bcc4-eac167fe3b78.png)
 |   | Angle|Length| Distance|
 |---|---|---|---|
-|scope| -1.205|-0.878|-0.697|
+|slope| -1.205|-0.878|-0.697|
 |intercept| 81.344|81.853|82.343|
 ## 4.Conclusion
