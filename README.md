@@ -1,3 +1,6 @@
+# Newest Paper
+[A Comprehensive Method for Similarity Evaluation in Discrete Fracture Network Modeling of Jointed Rock Masses](https://link.springer.com/article/10.1007/s00603-023-03572-0)
+
 # Machine vision based similarity modeling of rock fractures in tunnel face
 ## Graduate Thesis
 1. Proposed a visualization method of discrete fracture network with randomly generated fracture trace maps based on machine vision methods and statistical principles using Python language, and thus established a complete discrete fracture network similarity evaluation system.
